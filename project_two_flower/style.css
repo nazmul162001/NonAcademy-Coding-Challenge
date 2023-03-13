@@ -1,0 +1,63 @@
+/* reset css  */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    outline: none;
+  }
+  :root {
+    --primary-color: #2a3d81;
+    --secondary-color: #6c93cc;
+  }
+  body {
+    width: 100%;
+    height: 100vh;
+    background: var(--primary-color);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  main {
+    position: relative;
+    width: 200px;
+    height: 200px;
+    background-color: var(--secondary-color);
+    border-radius: 50%;
+    overflow: hidden;
+  }
+  /* common style */
+  .circle_1,
+  .circle_2,
+  .circle_3,
+  .circle_4 {
+    position: absolute;
+    width: 150px;
+    height: 150px;
+    margin: auto;
+    border-radius: 50%;
+    border: 13px solid var(--primary-color);
+  }
+  .circle_1,
+  .circle_4 {
+    top: 0;
+    bottom: 0;
+  }
+  .circle_2,
+  .circle_3 {
+    left: 0;
+    right: 0;
+  }
+  
+  /* individual style */
+  .circle_1 {
+    left: -43px;
+  }
+  .circle_4 {
+    right: -43px;
+  }
+  .circle_2 {
+    top: -43px;
+  }
+  .circle_3 {
+    bottom: -43px;
+  }
