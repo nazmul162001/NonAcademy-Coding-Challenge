@@ -1,0 +1,88 @@
+/* reset css  */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  outline: none;
+}
+:root {
+  --primary-color: rgba(255, 166, 0, 0.779);
+  --secondary-color: #000000;
+}
+body {
+  width: 100%;
+  height: 100vh;
+  background: var(--secondary-color);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+main {
+  position: relative;
+  width: 200px;
+  height: 90px;
+  background-color: var(--primary-color);
+  overflow: hidden;
+}
+/* common css */
+.circle_1,
+.circle_2,
+.circle_3,
+.circle_4,
+.circle_5 {
+  position: absolute;
+  border-radius: 50%;
+  background-color: var(--secondary-color);
+}
+.circle_1,
+.circle_4 {
+  width: 90px;
+  height: 90px;
+}
+.circle_2,
+.circle_3 {
+  width: 120px;
+  height: 90px;
+}
+
+/* specific style  */
+.circle_1 {
+  top: 0;
+  left: -50px;
+}
+.circle_2 {
+  bottom: -50px;
+  left: 0;
+}
+.circle_3 {
+  bottom: -50px;
+  right: 0;
+}
+.circle_4 {
+  top: 0;
+  right: -50px;
+}
+
+/* square  */
+.square {
+  position: absolute;
+  width: 60px;
+  height: 30px;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background-color: var(--secondary-color);
+  border-bottom-left-radius: 5px;
+  border-bottom-right-radius: 5px;
+}
+.square_head {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  width: 15px;
+  height: 15px;
+  background-color: var(--primary-color);
+}
