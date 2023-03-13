@@ -48,3 +48,25 @@ main {
   border-radius: 50%;
   border: 15px solid var(--primary-color);
 }
+.circle_2 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -43px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  border: 15px solid var(--primary-color);
+}
+.circle_3 {
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: -43px;
+  width: 150px;
+  height: 150px;
+  margin: auto;
+  border-radius: 50%;
+  border: 15px solid var(--primary-color);
+}
